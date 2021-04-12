@@ -25,16 +25,18 @@ namespace Biblio.Models
         [StringLength(50, MinimumLength = 3,
        ErrorMessage = "Author should be minimum 3 characters and a maximum of 50 characters")]
         [DataType(DataType.Text)]
-
+        [Display(Name = "Auteur")]
         public string Author { get; set; }
        
         
 
         [Column("Year")]
-        [Display(Name = "Publish Year")]
-        public string publishYear
+        [Display(Name = "Date de publication")]
+        [DataType(DataType.Date)]
+        public DateTime publishYear
         { get; set; }
-        
+
+        public string Picture { get; set; }
     }
 }
 
