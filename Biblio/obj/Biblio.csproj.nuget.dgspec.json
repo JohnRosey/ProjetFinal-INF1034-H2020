@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ismae\\source\\repos\\ProjetFinal\\Biblio\\Biblio.csproj": {}
+    "E:\\OneDrive - EMCC\\Bureau\\Retour a zero\\ProjetFinal-INF1034-H2020\\Biblio\\Biblio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ismae\\source\\repos\\ProjetFinal\\Biblio\\Biblio.csproj": {
+    "E:\\OneDrive - EMCC\\Bureau\\Retour a zero\\ProjetFinal-INF1034-H2020\\Biblio\\Biblio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ismae\\source\\repos\\ProjetFinal\\Biblio\\Biblio.csproj",
+        "projectUniqueName": "E:\\OneDrive - EMCC\\Bureau\\Retour a zero\\ProjetFinal-INF1034-H2020\\Biblio\\Biblio.csproj",
         "projectName": "Biblio",
-        "projectPath": "C:\\Users\\ismae\\source\\repos\\ProjetFinal\\Biblio\\Biblio.csproj",
+        "projectPath": "E:\\OneDrive - EMCC\\Bureau\\Retour a zero\\ProjetFinal-INF1034-H2020\\Biblio\\Biblio.csproj",
         "packagesPath": "C:\\Users\\ismae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ismae\\source\\repos\\ProjetFinal\\Biblio\\obj\\",
+        "outputPath": "E:\\OneDrive - EMCC\\Bureau\\Retour a zero\\ProjetFinal-INF1034-H2020\\Biblio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
