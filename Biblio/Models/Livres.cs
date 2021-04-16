@@ -8,8 +8,11 @@ using System.ComponentModel;
 
 namespace Biblio.Models
 {
-    public class Livres
-    {   public string Langue { get; set; }
+   
+
+    public class Livres 
+    {
+        public string Langue { get; set; }
         public string ISBN { get; set; }
 
         [Key]
@@ -17,7 +20,7 @@ namespace Biblio.Models
 
         [Required,StringLength(50, MinimumLength = 3)]
         public string Title { get; set; }
-        
+        public string Categorie { get; set; }
         [Required]
         
         public string SerialNumber { get; set; }
